@@ -387,7 +387,7 @@ namespace makerbit {
      * @param protocol IR protocol, eg: IrProtocol.Keyestudio
      */
     //% blockId="makerbit_infrared_connect_receiver"
-    //% block="连接红外接收器到引脚 %pin|设置解码方式为%protocol|"
+    //% block="红外接收器引脚 %pin|设置解码方式为%protocol|"
     //% pin.fieldEditor="gridpicker"
     //% pin.fieldOptions.columns=4
     //% pin.fieldOptions.tooltips="false"
@@ -473,7 +473,7 @@ namespace makerbit {
      * @param handler body code to run when the event is raised
      */
     //% blockId=makerbit_infrared_on_ir_datagram
-    //% block="当接收到红外数据时"
+    //% block="接收到红外数据时"
     //% weight=40
     export function onIrDatagram(handler: () => void) {
         initIrState();
